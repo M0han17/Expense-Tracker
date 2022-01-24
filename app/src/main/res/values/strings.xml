@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_will_send_you_a_one_time_password_to_the_given_phone_number">We will send you a one time password to the given phone number</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="please_enter_the_otp_sent_to_you">Please enter the OTP sent to you</string>
+
+    <string-array name="items">
+        <item>Select item</item>
+        <item>Transport</item>
+        <item>Food</item>
+        <item>House</item>
+        <item>Entertainment</item>
+        <item>Education</item>
+        <item>Charity</item>
+        <item>Apparel</item>
+        <item>Health</item>
+        <item>Personal</item>
+        <item>Other</item>
+    </string-array>
+</resources>
