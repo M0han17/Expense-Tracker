@@ -130,12 +130,15 @@ public class HistoryActivity extends AppCompatActivity implements DatePickerDial
                     Object total = map.get("amount");
                     int pTotal = Integer.parseInt(String.valueOf(total));
                     totalAmount+=pTotal;
-                    if (totalAmount >0){
+                    if (totalAmount > 0){
                         historyTotalAmountSpent.setVisibility(View.VISIBLE);
-                        historyTotalAmountSpent.setText("This day you spent $: "+ totalAmount);
+                        historyTotalAmountSpent.setText("This day you spent : $"+ totalAmount);
                     }
 
                 }
+                if(totalAmount==0){
+                    historyTotalAmountSpent.setVisibility(View.VISIBLE);
+                    historyTotalAmountSpent.setText("Sorry No Data....!");}
             }
 
             @Override

@@ -24,8 +24,8 @@
 
         <ImageView
             android:id="@+id/logo"
-            android:layout_width="170dp"
-            android:layout_height="170dp"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
             android:src="@drawable/hope1"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"/>
@@ -45,10 +45,10 @@
             android:textAlignment="center"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="This is an application to help the users in keeping track their expenditure and analyze the expenditure"/>
+            android:text="This is a simple Project which helps the user in tracking their expenditure on daily, weekly and monthly basis. It also helps the user to analyze the expenditure through charts. To add on, the user could also have a glance at the expenditure, of a particular day."/>
 
         <TextView
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="100dp"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:layout_width="350dp"

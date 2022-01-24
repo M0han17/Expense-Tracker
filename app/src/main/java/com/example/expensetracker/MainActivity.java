@@ -392,7 +392,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.About){
-            Intent intent  = new Intent(MainActivity.this, verify_phno.class);
+            Intent intent  = new Intent(MainActivity.this, About.class);
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);

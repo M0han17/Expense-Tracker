@@ -30,9 +30,6 @@
             android:name=".verify_otp"
             android:exported="true" />
         <activity
-            android:name=".monthly_expense"
-            android:exported="true" />
-        <activity
             android:name=".HistoryActivity"
             android:exported="true" />
         <activity
