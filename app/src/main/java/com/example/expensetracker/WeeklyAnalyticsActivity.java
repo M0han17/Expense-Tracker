@@ -546,7 +546,7 @@ public class WeeklyAnalyticsActivity extends AppCompatActivity {
                         totalAmount+=pTotal;
 
                     }
-                    totalBudgetAmountTextView.setText("Total week's spending: $ "+ totalAmount);
+                    totalBudgetAmountTextView.setText("Total week's spending : $ "+ totalAmount);
                     monthSpentAmount.setText("Total Spent: $ "+totalAmount);
                 }else {
 //                    anyChartView.setVisibility(View.GONE);

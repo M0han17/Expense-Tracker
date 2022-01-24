@@ -138,7 +138,7 @@ public class HistoryActivity extends AppCompatActivity implements DatePickerDial
                 }
                 if(totalAmount==0){
                     historyTotalAmountSpent.setVisibility(View.VISIBLE);
-                    historyTotalAmountSpent.setText("Sorry No Data....!");}
+                    historyTotalAmountSpent.setText("Oops No Data....!");}
             }
 
             @Override

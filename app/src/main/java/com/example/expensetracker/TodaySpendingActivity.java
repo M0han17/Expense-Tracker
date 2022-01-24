@@ -143,7 +143,7 @@ public class TodaySpendingActivity extends AppCompatActivity {
                     int pTotal = Integer.parseInt(String.valueOf(total));
                     totalAmount += pTotal;
 
-                    totalAmountSpentOn.setText("Total Day's Spending: $"+totalAmount);
+                    totalAmountSpentOn.setText("Today's Spending : $ "+totalAmount);
 
 
                 }
